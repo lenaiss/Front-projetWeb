@@ -1,0 +1,51 @@
+[
+    {
+        "idArtiste": 1,
+        "nomArtiste": "ATEEZ",
+        "categorie": "Groupe",
+        "sousCategorie": "Boysband",
+        "agence": "KQ Entertainment"
+    },
+    {
+        "idArtiste": 2,
+        "nomArtiste": "NCT",
+        "categorie": "Groupe",
+        "sousCategorie": "Boysband",
+        "agence": "SM Entertainment"
+    },
+    {
+        "idArtiste": 3,
+        "nomArtiste": "AGUST D",
+        "categorie": "Solo",
+        "sousCategorie": "Garçon",
+        "agence": "Hybe Entertainment"
+    },
+    {
+        "idArtiste": 4,
+        "nomArtiste": "IU",
+        "categorie": "Solo",
+        "sousCategorie": "Fille",
+        "agence": "EDAM Entertainment"
+    },
+    {
+        "idArtiste": 5,
+        "nomArtiste": "THE BOYZ",
+        "categorie": "Groupe",
+        "sousCategorie": "Boysband",
+        "agence": "IST Entertainment"
+    },
+    {
+        "idArtiste": 6,
+        "nomArtiste": "TWICE",
+        "categorie": "Groupe",
+        "sousCategorie": "Girlsband",
+        "agence": "JYP Entertainment"
+    },
+    {
+        "idArtiste": 7,
+        "nomArtiste": "KARD",
+        "categorie": "Groupe",
+        "sousCategorie": "Mixte",
+        "agence": "DSP Media"
+    }   
+]

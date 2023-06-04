@@ -1,0 +1,14 @@
+[
+    {
+        "idType": 1,
+        "type": "Lightstick"
+    },
+    {
+        "idType": 2,
+        "type": "Album"
+    },
+    {
+        "idType": 3,
+        "type": "Season's Greetings"
+    }   
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "idArticle": 1,
+        "nomArticle": "ATEEZ - OFFICIAL LIGHTSTICK VER.2",
+        "idArtiste": 1,
+        "image": "images/ateez-official-lightstick-ver2.jpg",
+        "prix": 70,
+        "typeArticle": 1,
+        "description": "Version 2 du Ligthstick officiel du groupe ATEEZ",
+        "dimension": "25 x 10 x 10 cm",
+        "dateSortie": "25/10/2022",        
+        "disponibilite": false
+    },
+    {
+        "idArticle": 2,
+        "nomArticle": "NCT - Light Stick officiel",
+        "idArtiste": 2,
+        "image": "images/nct-light-stick-officiel.jpg",
+        "prix": 69,
+        "typeArticle": 1,
+        "description": "Ligthstick officiel du groupe NCT",
+        "dimension": "8.1 x 7.2 x 25.7cm",
+        "dateSortie": "28/05/2018",
+        "disponibilite": true
+    },
+    {
+        "idArticle": 3,
+        "nomArticle": "AGUST D (BTS) - D-DAY",
+        "idArtiste": 3,
+        "image": "images/agust-d-bts-d-day.jpg",
+        "prix": 25,
+        "typeArticle": 2,
+        "description": "Le dernier album de Suga",
+        "dimension": "24 x 17 cm",
+        "dateSortie": "21/04/2023",        
+        "disponibilite": true
+    },
+    {
+        "idArticle": 4,
+        "nomArticle": "IU - Mini Album Vol. 5 : LILAC (édition coréenne)",
+        "idArtiste": 4,
+        "image": "images/iu-mini-album-lilac.jpeg",
+        "prix": 28,
+        "typeArticle": 2,
+        "dimension": "19,8 x 22,2 cm",
+        "dateSortie": "26/03/2021",         
+        "disponibilite": true
+    },
+    {
+        "idArticle": 5,
+        "nomArticle": "THE BOYZ - 2023 SEASON'S GREETINGS [THE BOYZ SCOUT]",
+        "idArtiste": 5,
+        "image": "images/the-boyz-2023-season-s-greetings.jpg",
+        "prix": 65,
+        "typeArticle": 3,
+        "dimension": "26 x 24 cm",
+        "dateSortie": "28/02/2023", 
+        "disponibilite": false
+    },
+    {
+        "idArticle": 6,
+        "nomArticle": "TWICE - READY TO BE",
+        "idArtiste": 6,
+        "image": "images/twice-ready-to-be.jpg",
+        "prix": 26,
+        "typeArticle": 2,
+        "dimension": "24 x 17 cm",
+        "dateSortie": "10/03/2023", 
+        "disponibilite": true
+    },
+    {
+        "idArticle": 7,
+        "nomArticle": "KARD - Re: (Mini Album Vol.5)",
+        "idArtiste": 7,
+        "image": "images/kard-re.jpeg",
+        "prix": 25,
+        "typeArticle": 2,
+        "dimension": "22.4 x 17 x 1.7 cm",
+        "dateSortie": "23/06/2022", 
+        "disponibilite": true
+    }   
+]

@@ -1,0 +1,82 @@
+[
+	{
+		"idCommande" : 3,
+		"idUser" : 2,
+		"idArticle" : 3,
+		"quantite" : 3,
+		"dateCommande" : "2023-03-01 00:00:00",
+		"montant" : 75
+	},
+	{
+		"idCommande" : 4,
+		"idUser" : 2,
+		"idArticle" : 7,
+		"quantite" : 1,
+		"dateCommande" : "2023-04-12 00:00:00",
+		"montant" : 25
+	},
+	{
+		"idCommande" : 6,
+		"idUser" : 2,
+		"idArticle" : 4,
+		"quantite" : 2,
+		"dateCommande" : "2023-05-28 20:40:19",
+		"montant" : 56
+	},
+	{
+		"idCommande" : 7,
+		"idUser" : 2,
+		"idArticle" : 5,
+		"quantite" : 2,
+		"dateCommande" : "2023-05-29 15:50:17",
+		"montant" : 130
+	},
+	{
+		"idCommande" : 7,
+		"idUser" : 2,
+		"idArticle" : 7,
+		"quantite" : 1,
+		"dateCommande" : "2023-05-29 15:50:17",
+		"montant" : 25
+	},
+	{
+		"idCommande" : 8,
+		"idUser" : 2,
+		"idArticle" : 1,
+		"quantite" : 3,
+		"dateCommande" : "2023-05-29 20:28:51",
+		"montant" : 210
+	},
+	{
+		"idCommande" : 9,
+		"idUser" : 2,
+		"idArticle" : 4,
+		"quantite" : 1,
+		"dateCommande" : "2023-05-30 08:50:57",
+		"montant" : 28
+	},
+	{
+		"idCommande" : 10,
+		"idUser" : 2,
+		"idArticle" : 3,
+		"quantite" : 4,
+		"dateCommande" : "2023-05-30 13:53:21",
+		"montant" : 100
+	},
+	{
+		"idCommande" : 11,
+		"idUser" : 2,
+		"idArticle" : 2,
+		"quantite" : 1,
+		"dateCommande" : "2023-05-30 15:07:47",
+		"montant" : 69
+	},
+	{
+		"idCommande" : 11,
+		"idUser" : 2,
+		"idArticle" : 3,
+		"quantite" : 2,
+		"dateCommande" : "2023-05-30 15:07:47",
+		"montant" : 50
+	}
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "idClient": 1,
+        "article1": 1,
+        "article2": 5
+    },
+    {
+        "idClient": 2,
+        "article1": 3,
+        "article2": 4
+    }
+]

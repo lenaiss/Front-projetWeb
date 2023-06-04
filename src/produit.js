@@ -1,13 +1,7 @@
 let articles = window.localStorage.getItem("articles");
 if (articles === null) {
-    // Récupération des pièces depuis l'API HTTP'
-    const reponse = await fetch("http://localhost:8000/article/", {
-        headers: {
-            'Acces-Control-Allow-Origin': 'http://127.0.0.1:8080/', //autoriser le domaine d'origine
-        }
-    });
     // Récupération des pièces depuis le fichier JSON
-    // const reponse = await fetch('articles.json');
+    const reponse = await fetch('articles.json');
     let articles = await reponse.json();
     console.log(articles);
     console.log(articles.length);
@@ -23,10 +17,8 @@ else {
 // Récupération des artistes éventuellement stockées dans le localStorage
 let artistes = window.localStorage.getItem("artistes");
 if (artistes === null) {
-    // Récupération des pièces depuis l'API HTTP'
-    const reponse = await fetch("http://localhost:8000/artiste/");
     // Récupération des pièces depuis le fichier JSON
-    // const reponse = await fetch('artistes.json');
+    const reponse = await fetch('artistes.json');
     let artistes = await reponse.json();
     // Transformation des pièces en JSON
     const valeurPieces = JSON.stringify(artistes);

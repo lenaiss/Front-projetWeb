@@ -153,6 +153,7 @@ supprimer.forEach(function(button) {
 
                 // Recharger automatiquement la page
                 location.reload();
+
     });
 });
 
@@ -175,9 +176,9 @@ commander.addEventListener("click", async function () {
     });
 
     //Fixer le numéro de la commande
-    const response = await fetch("http://localhost:8000/commande/newID", {
+    const response = await fetch("https://kpopnation-backend.cluster-ig3.igpolytech.fr/commande/newID", {
         headers: {
-            'Acces-Control-Allow-Origin': 'http://127.0.0.1:8080/', //autoriser le domaine d'origine
+            'Acces-Control-Allow-Origin': 'https://kpop-nation-95ro.onrender.com/', //autoriser le domaine d'origine
         }
     });
     let id = await response.json();
@@ -204,10 +205,10 @@ commander.addEventListener("click", async function () {
         try {
         // Effectuer une requête POST vers le backend
         console.log(commande);
-            const response = await fetch('http://localhost:8000/commande/commander', {
+            const response = await fetch('https://kpopnation-backend.cluster-ig3.igpolytech.fr/commande/commander', {
             method: 'POST',
             headers: {
-                'Acces-Control-Allow-Origin': 'http://127.0.0.1:8080/', //autoriser le domaine d'origine
+                'Acces-Control-Allow-Origin': 'https://kpop-nation-95ro.onrender.com/', //autoriser le domaine d'origine
                 'Content-Type': 'application/json'
             },
             // body: JSON.stringify(commande)
@@ -229,7 +230,7 @@ commander.addEventListener("click", async function () {
                   // Attendre 3 secondes (3000 millisecondes)
                   setTimeout(function() {
                   // Rediriger l'utilisateur vers une autre page après 3 secondes
-                    window.location.href = "http://127.0.0.1:8080/index.html";
+                    window.location.href = "https://kpop-nation-95ro.onrender.com/index.html";
                   }, 3000);
       
             } else {
